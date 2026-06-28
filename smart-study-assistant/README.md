@@ -1,5 +1,7 @@
 # Smart Study Assistant 🎓💻
 
+### 🌐 Live Demo: [https://smart-study-assistant-9qwd.onrender.com](https://smart-study-assistant-9qwd.onrender.com)
+
 An AI-powered, full-stack academic prep dashboard designed for college students to master any topic. Powered by the Gemini 3.5 API and built with a calm, high-contrast **Sage Green & Ivory** theme, this platform integrates comprehensive study resources, previous year question analysis, interactive quizzes, and a doubt-solving tutor.
 
 ---
