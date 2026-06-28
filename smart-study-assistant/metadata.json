@@ -1,0 +1,6 @@
+{
+  "name": "Smart Study Assistant",
+  "description": "An AI-powered full-stack study tool for college students to generate structured explanations, mind maps, notes, previous year questions, study schedules, flashcards, and interactive adaptive quizzes.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
