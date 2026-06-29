@@ -1,0 +1,22 @@
+name: Deploy Link
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub Deployment
+        uses: chrnorm/deployment-action@v2
+        id: deployment
+        with:
+          token: "${{ github.token }}"
+          environment: production
+          initial-status: success
+          target-url: https://smart-study-assistant-9qwd.onrender.com
